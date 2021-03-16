@@ -1,0 +1,101 @@
+.container{
+    background-color: rgb(187, 235, 219);
+   
+    border: 2px solid black ;
+}
+
+  label{
+    color: rgb(228, 11, 3);
+  }
+  button{
+    background-color: rgb(13, 146, 102);
+    color: floralwhite;
+  }
+  input{
+    color: black;
+    background-color: rgba(201, 255, 196, 0.788);
+ 
+  }
+  ::placeholder{
+    color: rgb(82, 78, 78);
+  }
+  p{
+    color: blue;
+   
+  }
+  textarea{
+    border-color: rgb(30, 62, 73);
+    color: rgb(10, 10, 10); 
+    border-width: 2px;
+    box-shadow: 10px  ;
+   
+  }
+  input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #92a2c5;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #1a1714;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input[type='checkbox']:after {
+    width: 10px;
+    height: 10px;
+   
+    top: -2px;
+    left: -1px;
+    position: relative;
+  
+    content: '';
+    display: inline-block;
+    visibility: visible;
+   
+}
+
+input[type='checkbox']:checked:after {
+    width: 10px;
+    height: 10px;
+   
+    top: -2px;
+    left: -1px;
+    position: absolute;
+    background-color: #221f19;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+select{
+    background-color: rgb(193, 220, 252);
+    color: rgb(228, 11, 3);
+}
+.submit{
+align-content: center;
+  height: 50px;
+
+  margin-bottom: 30px;
+  margin-left: 40%;
+  width: 100px;
+  font-size: 23px;
+  background-color: rgb(43, 43, 224);
+  color: white;
+}
